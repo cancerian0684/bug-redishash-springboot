@@ -5,6 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 import org.springframework.context.annotation.Bean
 import org.springframework.data.annotation.Id
+import org.springframework.data.keyvalue.repository.KeyValueRepository
 import org.springframework.data.redis.core.RedisHash
 import org.springframework.data.repository.CrudRepository
 
